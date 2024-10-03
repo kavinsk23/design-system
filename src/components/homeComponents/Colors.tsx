@@ -26,9 +26,9 @@ export default function Colors() {
   ];
 
   return (
-    <section className="block md:flex p-4 md:p-6">
+    <section className="block md:flex p-4 md:p-6  gap-10">
       {/* Title and Description */}
-      <div className="mb-8 w-96">
+      <div className="min-w-96">
         <h2 className="text-3xl font-bold text-gray-900 mb-2">Colors</h2>
         <p className="text-md text-gray-500">Primaries and grays</p>
       </div>
