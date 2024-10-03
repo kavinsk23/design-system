@@ -5,7 +5,7 @@ export default function Typography() {
   return (
     <section className="p-4 md:p-6 flex flex-col md:flex-row gap-10">
       {/* Typography Section Title and Description */}
-      <div className="flex flex-col min-w-96">
+      <div className="w-72">
         <h2 className="text-3xl font-bold text-gray-900 mb-2">Typography</h2>
         <p className="text-md text-gray-500 mb-4">Roboto set with the perfect-fourth modular type scale</p>
       </div>

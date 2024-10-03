@@ -51,7 +51,7 @@ export default function Navbar() {
           <div className="absolute right-0 mt-2 w-40 bg-white border border-gray-300 rounded-md shadow-lg z-50">
             <ul className="py-2">
               {/* Dropdown Navigation Links */}
-              {["Colors", "Typography", "Buttons", "Tabs", "Forms", "Alerts"].map((item) => (
+              {["Colors", "Typography", "Buttons", "Forms", "Alerts"].map((item) => (
                 <li key={item}>
                   <a
                     href="#"
