@@ -7,7 +7,7 @@ export default function Forms() {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <section className="p-4 md:p-6 flex flex-col md:flex-row gap-10">
+    <section className="p-4 md:p-6 flex flex-col lg:flex-row gap-10">
       {/* Title */}
       <div className="w-72">
         <h2 className="text-3xl font-bold text-gray-900 mb-2">Forms</h2>
@@ -15,8 +15,8 @@ export default function Forms() {
 
       <div>
         {/* Inputs Section */}
-        <div className="border-2 border-dashed border-purple-400 rounded-lg p-6 mb-10 space-y-4">
-            <h3 className="text-purple-700 text-sm uppercase mb-4">Input</h3>
+        <div className="border-2 border-black rounded-lg p-6 mb-10 space-y-4">
+            <h3 className="text-black-700 text-sm uppercase mb-4">Input</h3>
             <div className="grid grid-cols-2 gap-4">
             <div>
                 <input
@@ -55,7 +55,7 @@ export default function Forms() {
         </div>
 
         {/* Dropdown Section */}
-        <div className="border-2 border-dashed border-purple-400 rounded-lg p-6 mb-10 space-y-4">
+        <div className="border-2 border-black rounded-lg p-6 mb-10 space-y-4">
             <h3 className="text-purple-700 text-sm uppercase mb-4">Dropdown</h3>
             <select
             className="w-full px-4 py-2 border rounded-md text-gray-700"
@@ -74,7 +74,7 @@ export default function Forms() {
         {/* Checkbox, Select Button, and Toggle Button Section */}
         <div className="flex gap-8">
             {/* Checkbox */}
-            <div className="border-2 border-dashed border-purple-400 rounded-lg p-6 space-y-4">
+            <div className="border-2 border-black rounded-lg p-6 space-y-4">
             <h3 className="text-purple-700 text-sm uppercase mb-4">Checkbox</h3>
             <div className="flex items-center space-x-2">
                 <input type="checkbox" className="form-checkbox" /> <span>Default</span>
@@ -88,7 +88,7 @@ export default function Forms() {
             </div>
 
             {/* Select Button */}
-            <div className="border-2 border-dashed border-purple-400 rounded-lg p-6 space-y-4">
+            <div className="border-2 border-black rounded-lg p-6 space-y-4">
             <h3 className="text-purple-700 text-sm uppercase mb-4">Select Button</h3>
             <button className="px-4 py-2 border rounded-md">Default</button>
             <button className="px-4 py-2 bg-pink-500 text-white rounded-md">Selected</button>
@@ -98,7 +98,7 @@ export default function Forms() {
             </div>
 
             {/* Toggle Button */}
-            <div className="border-2 border-dashed border-purple-400 rounded-lg p-6 space-y-4">
+            <div className="border-2 border-black rounded-lg p-6 space-y-4">
             <h3 className="text-purple-700 text-sm uppercase mb-4">Toggle Button</h3>
             <div
                 className={`w-16 h-8 flex items-center rounded-full p-1 cursor-pointer ${toggle ? 'bg-pink-500' : 'bg-gray-300'}`}

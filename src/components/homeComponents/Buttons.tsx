@@ -21,7 +21,7 @@ export default function Buttons() {
   ];
 
   return (
-    <section className="p-4 md:p-6 flex flex-col md:flex-row gap-10">
+    <section className="p-4 md:p-6 flex flex-col lg:flex-row gap-10">
       {/* Title and Button Variants */}
       <div className="w-72">
         <h2 className="text-3xl font-bold text-gray-900 mb-2">Buttons</h2>
