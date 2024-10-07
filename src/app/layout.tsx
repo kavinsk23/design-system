@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "OPEN Design System",
+  title: "NEXT TAILWIND Framework",
   description: "By Kavin SK",
 };
 
