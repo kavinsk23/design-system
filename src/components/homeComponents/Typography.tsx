@@ -82,6 +82,7 @@ export default function Typography() {
         <div className="flex items-baseline space-x-4">
           <span className="text-sm text-gray-500 w-12">SMALL</span>
           <small className="text-sm text-gray-900">Hayes Valley Studio</small>
+          {/* <small className="text-sm text-gray-900">Hayes Valley Studio</small> */}
         </div>
       </div>
       <div>
