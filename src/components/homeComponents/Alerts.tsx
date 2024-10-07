@@ -92,7 +92,7 @@ export default function Alerts() {
 
         <div className='w-full'>
           {/* Alerts Section */}
-          <div className="w-1/2 border-2 border-black rounded-lg p-6 space-y-4">
+          <div className="w-full border-2 border-black rounded-lg p-6 space-y-4">
             <h3 className="text-purple-700 text-sm uppercase mb-4">Alert</h3>
             {alertTypes.map((alert, index) => (
               <div key={index} className={`flex items-center gap-4 ${alert.bgColor} p-4 rounded-md`}>

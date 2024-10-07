@@ -60,10 +60,10 @@ export default function ListComponent() {
                 <div className="border-2 border-black rounded-lg p-6 space-y-4">
                     <h3 className="text-purple-700 text-sm uppercase mb-4">Ordered List</h3>
                     <ol className="list-decimal list-inside text-gray-700 space-y-2">
-                    <li>First item in the list</li>
-                    <li>Second item with more description text to see how it looks</li>
-                    <li>Third item in the ordered list</li>
-                    <li>Fourth item to end the list</li>
+                    <li>First item</li>
+                    <li>Second item</li>
+                    <li>Third item</li>
+                    <li>Fourth item</li>
                     </ol>
                 </div>
 
@@ -72,9 +72,9 @@ export default function ListComponent() {
                     <h3 className="text-purple-700 text-sm uppercase mb-4">Unordered List</h3>
                     <ul className="list-disc list-inside text-gray-700 space-y-2">
                     <li>Item one</li>
-                    <li>Item two with extra content for layout testing</li>
+                    <li>Item two</li>
                     <li>Another item</li>
-                    <li>Last item in the unordered list</li>
+                    <li>Last item</li>
                     </ul>
                 </div>
 
@@ -84,15 +84,15 @@ export default function ListComponent() {
                     <ul className="space-y-4">
                     <li className="flex items-start gap-3">
                         <AiOutlineCheckCircle className="w-6 h-6 text-green-500" />
-                        <span className="text-gray-700">This is a feature that has been successfully implemented</span>
+                        <span className="text-gray-700">This is a feature</span>
                     </li>
                     <li className="flex items-start gap-3">
                         <AiOutlineStar className="w-6 h-6 text-yellow-500" />
-                        <span className="text-gray-700">A special feature of our design system</span>
+                        <span className="text-gray-700">A special feature</span>
                     </li>
                     <li className="flex items-start gap-3">
                         <AiOutlineCheckCircle className="w-6 h-6 text-green-500" />
-                        <span className="text-gray-700">Another successfully implemented feature</span>
+                        <span className="text-gray-700">Another successfully</span>
                     </li>
                     </ul>
                 </div>
