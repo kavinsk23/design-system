@@ -1,6 +1,6 @@
 "use client";
 import React, {useState} from 'react';
-import { AiOutlineCheckCircle, AiOutlineCode, AiOutlineStar } from 'react-icons/ai';
+import { AiOutlineCheckCircle, AiOutlineStar } from 'react-icons/ai';
 import ViewCode from './viewCode/ViewCode';
 
 export default function ListComponent() {
