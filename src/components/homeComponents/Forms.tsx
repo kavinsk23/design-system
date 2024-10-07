@@ -4,7 +4,7 @@ import ViewCode from './viewCode/ViewCode';
 
 export default function Forms() {
   const [selectedOption, setSelectedOption] = useState('');
-  const [checked, setChecked] = useState(true);
+  const [checked] = useState(true);
   const [toggle, setToggle] = useState(false);
   const formCode = `
 <div className="border-2 border-black rounded-lg p-6 mb-10 space-y-4">

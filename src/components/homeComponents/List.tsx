@@ -1,5 +1,4 @@
 "use client";
-import React, {useState} from 'react';
 import { AiOutlineCheckCircle, AiOutlineStar } from 'react-icons/ai';
 import ViewCode from './viewCode/ViewCode';
 
