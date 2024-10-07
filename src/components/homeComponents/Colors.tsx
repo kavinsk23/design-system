@@ -28,7 +28,7 @@ export default function Colors() {
   return (
     <section className="flex flex-col lg:flex-row p-4 md:p-6 gap-10">
       {/* Title and Description */}
-      <div className="w-72">
+      <div className="w-80">
         <h2 className="text-3xl font-bold text-gray-900 mb-2">Colors</h2>
         <p className="text-md text-gray-500">Primaries and grays</p>
       </div>

@@ -5,7 +5,7 @@ import Colors from '@/components/homeComponents/Colors';
 import Typography from '@/components/homeComponents/Typography';
 import Buttons from '@/components/homeComponents/Buttons';
 import Forms from '@/components/homeComponents/Forms';
-import Alert from '@/components/homeComponents/Alert';
+import Alert from '@/components/homeComponents/Alerts';
 import Navigation from '@/components/homeComponents/Navigation';
 import List from '@/components/homeComponents/List';
 import Footer from '@/components/homeComponents/Footer';

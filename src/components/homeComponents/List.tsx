@@ -54,7 +54,7 @@ export default function ListComponent() {
         <div className="min-w-72">
             <h2 className="text-3xl font-bold text-gray-900 mb-2">Lists</h2>
         </div>
-
+    <div className='w-full'>
         <div className='flex flex-col'>
             <div className='flex gap-5'>
                 {/* Ordered List */}
@@ -98,9 +98,10 @@ export default function ListComponent() {
                     </ul>
                 </div>
             </div>
-        <div>
-            <ViewCode code={listCode} />
-        </div>
+      </div>
+      <div>
+        <ViewCode code={listCode} />
+      </div>
       </div>
     </section>
   );

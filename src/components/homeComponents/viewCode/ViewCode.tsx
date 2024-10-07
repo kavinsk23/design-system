@@ -15,14 +15,18 @@ const ViewCode: React.FC<ViewCodeProps> = ({ code }) => {
   };
 
   return (
-    <div className="mt-4">
+    <div className="mt-4 w-full">
       {/* Toggle Button */}
       <button
-        className="text-gray-700 hover:text-gray-900 transition-all flex items-center"
+        className={`flex items-center justify-center px-4 py-2 rounded-md border border-gray-400 transition-all ${
+          isCodeVisible
+            ? 'bg-red-700 text-white hover:bg-red-800'
+            : 'bg-blue-500 text-white hover:bg-blue-600'
+        } shadow-md hover:shadow-lg`}
         onClick={toggleCodeVisibility}
         aria-label="Toggle code visibility"
       >
-        <AiOutlineCode className="w-6 h-6 mr-1" />
+        <AiOutlineCode className="w-6 h-6 mr-2" />
         {isCodeVisible ? 'Hide Code' : 'View Code'}
       </button>
 

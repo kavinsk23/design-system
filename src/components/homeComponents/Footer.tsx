@@ -10,24 +10,11 @@ export default function Footer() {
         <div className="min-w-72">
           <h2 className="text-2xl font-bold mb-4">Design System</h2>
           <p className="text-gray-400 text-sm">
-            Unified Design System for Scalable Interfaces. Bringing consistency and style across your applications.
+            Unified Framework for Scalable Interfaces. Bringing consistency and style across your applications.
           </p>
         </div>
 
-        {/* Quick Links */}
-        <div>
-          <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
-          <ul className="space-y-2 text-gray-400">
-            {['Colors', 'Typography', 'Buttons', 'Forms', 'Alerts'].map((link, index) => (
-              <li key={index}>
-                <a href="#" className="hover:text-white transition-all">
-                  {link}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-
+        
         {/* Social Media Icons */}
         <div>
           <h3 className="text-xl font-semibold mb-4">Follow Us</h3>
